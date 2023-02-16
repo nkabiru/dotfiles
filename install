@@ -1,0 +1,9 @@
+#! /usr/bin/env bash
+
+DOTFILES=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
+
+ln -sf $DOTFILES/ideavim/ideavimrc $HOME/.ideavimrc
+
+ln -sf $DOTFILES/git/gitconfig $HOME/.gitconfig
+ln -sf $DOTFILES/git/gitignore $HOME/.gitignore
+

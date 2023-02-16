@@ -1,0 +1,29 @@
+let mapleader=" "
+
+""" Settings
+set showmode
+set scrolloff=5
+set incsearch
+set number
+set ideajoin
+
+""" Normal
+nmap <leader>c <Action>(CloseContent)
+nmap <leader>f <Action>(GotoFile)
+nmap <leader>l <Action>(ReformatCode)
+nmap <leader>R <Action>(IdeaVim.ReloadVimRc.reload)
+nmap <leader>t <Action>(ToggleLineBreakpoint)
+nmap <leader>/ <Action>(CommentByLineComment)
+
+nmap gI <Action>(GotoImplementation)
+nmap gd <Action>(GotoDefinition)
+nmap gD <Action>(GotoDeclaration)
+
+nmap <M-k> <Action>(MoveLineUp)
+nmap <M-j> <Action>(MoveLineDown)
+
+""" Visual
+vmap <M-k> <Action>(MoveLineUp)
+vmap <M-j> <Action>(MoveLineDown)
+vmap <leader>/ <Action>(CommentByBlockComment)
+

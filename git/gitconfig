@@ -1,0 +1,7 @@
+[core]
+	editor = vim
+	excludes_file = ~/.gitignore
+[pull]
+	rebase = false
+[init]
+	defaultBranch = master
