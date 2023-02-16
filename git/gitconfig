@@ -1,7 +1,9 @@
 [core]
-	editor = vim
-	excludes_file = ~/.gitignore
+    editor = vim
+    excludesfile = ~/.gitignore
 [pull]
-	rebase = false
+    rebase = false
+[include]
+    path = ~/.gitconfig_local
 [init]
-	defaultBranch = master
+    defaultBranch = master
