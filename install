@@ -7,3 +7,4 @@ ln -sf $DOTFILES/ideavim/ideavimrc $HOME/.ideavimrc
 ln -sf $DOTFILES/git/gitconfig $HOME/.gitconfig
 ln -sf $DOTFILES/git/gitignore $HOME/.gitignore
 
+ln -sf $DOTFILES/nvim $HOME/.config/nvim
