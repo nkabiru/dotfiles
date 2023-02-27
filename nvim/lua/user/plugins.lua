@@ -41,6 +41,15 @@ use({
     fg = vim.api.nvim_get_hl_by_name('CursorLine', true).background,
     bg = vim.api.nvim_get_hl_by_name('CursorLine', true).background,
   })
+
+  vim.api.nvim_set_hl(0, 'NvimTreeIndentMarker', { fg = '#30323E'})
+  
+  vim.api.nvim_set_hl(0, 'StatusLineNonText', {
+      fg = vim.api.nvim_get_hl_by_name('NonText', true).foreground,
+      bg = vim.api.nvim_get_hl_by_name('StatusLine', true).background,
+  })
+
+  vim.api.nvim_set_hl(0, 'IndentBlanklineChar', {fg = '#2F313C'})
   end,
 })
 
@@ -150,6 +159,44 @@ use({
   end,
 })
 
+use({
+    'kyazdani42/nvim-tree.lua',
+    requires = 'kyazdani42/nvim-web-devicons',
+    config = function()
+      require('user/plugins/nvim-tree')
+    end,
+})
+
+use({
+    'nvim-lualine/lualine.nvim',
+    requires = 'kyazdani42/nvim-web-devicons',
+    config = function()
+      require('user/plugins/lualine')
+    end,
+})
+
+use({
+    'akinsho/bufferline.nvim',
+    requires = 'kyazdani42/nvim-web-devicons',
+    after = 'onedark.nvim',
+    config = function()
+      require('user/plugins/bufferline')
+    end,
+})
+
+use({
+    'lukas-reineke/indent-blankline.nvim',
+    config = function()
+      require('user/plugins/indent-blankline')
+    end,
+})
+
+use({
+    'glepnir/dashboard-nvim',
+    config = function()
+      require('user/plugins/dashboard-nvim')
+    end,
+  })
 -- Automatically set up your configuration after cloning packer.nvim
 -- Put this at the end after all plugins
 if packer_bootstrap then
