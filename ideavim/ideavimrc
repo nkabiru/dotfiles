@@ -5,6 +5,7 @@ set showmode
 set scrolloff=5
 set incsearch
 set number
+set relativenumber
 set ideajoin
 
 """ Normal
@@ -27,3 +28,5 @@ vmap <M-k> <Action>(MoveLineUp)
 vmap <M-j> <Action>(MoveLineDown)
 vmap <leader>/ <Action>(CommentByBlockComment)
 
+inoremap ;; <Esc>A;
+inoremap ,, <Esc>A,
