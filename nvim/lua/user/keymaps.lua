@@ -25,7 +25,7 @@ vim.keymap.set('i', ';;', '<Esc>A;')
 vim.keymap.set('i', ',,', '<Esc>A,')
 
 -- Quickly clear search highlighting
-vim.keymap.set('n', '<Leader>h', ':nohlsearch<CR>')
+vim.keymap.set('n', '<Leader>k', ':nohlsearch<CR>')
 
 -- Move lines up and down.
 vim.keymap.set('i', '<A-j>', '<Esc>:move .+1<CR>==gi')
