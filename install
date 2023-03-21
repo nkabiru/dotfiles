@@ -10,3 +10,5 @@ ln -sf $DOTFILES/git/gitignore $HOME/.gitignore
 ln -sf $DOTFILES/nvim $HOME/.config/nvim
 
 ln -sf $DOTFILES/alacritty $HOME/.config/alacritty
+
+ln -sf $DOTFILES/libinput-gestures.conf $HOME/.config/libinput-gestures.conf
