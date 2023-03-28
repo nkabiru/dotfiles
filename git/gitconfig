@@ -1,9 +1,9 @@
 [core]
-    editor = vim
+    editor = nvim
     excludesfile = ~/.gitignore
 [pull]
     rebase = false
 [include]
     path = ~/.gitconfig_local
 [init]
-    defaultBranch = master
+    defaultBranch = main
