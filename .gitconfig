@@ -1,9 +1,12 @@
 [core]
     editor = nvim
-    excludesfile = ~/.gitignore
+    excludesfile = ~/.gitignore_global
 [pull]
     rebase = false
 [include]
     path = ~/.gitconfig_local
 [init]
     defaultBranch = main
+[user]
+	email = njengakabiru@gmail.com
+	name = Njenga Kabiru

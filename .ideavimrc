@@ -5,8 +5,9 @@ set showmode
 set scrolloff=5
 set incsearch
 set number
-set relativenumber
 set ideajoin
+set ignorecase
+set smartcase
 
 """ Normal
 nmap <leader>c <Action>(CloseContent)
