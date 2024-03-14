@@ -10,16 +10,14 @@ set ignorecase
 set smartcase
 
 """ Normal
-nmap <leader>c <Action>(CloseContent)
-nmap <leader>f <Action>(GotoFile)
+nmap <leader>x <Action>(CloseContent)
 nmap <leader>l <Action>(ReformatCode)
 nmap <leader>R <Action>(IdeaVim.ReloadVimRc.reload)
 nmap <leader>t <Action>(ToggleLineBreakpoint)
 nmap <leader>/ <Action>(CommentByLineComment)
 
-nmap gI <Action>(GotoImplementation)
-nmap gd <Action>(GotoDefinition)
-nmap gD <Action>(GotoDeclaration)
+nmap gi <Action>(GotoImplementation)
+nmap gd <Action>(GotoDeclaration)
 
 nmap <M-k> <Action>(MoveLineUp)
 nmap <M-j> <Action>(MoveLineDown)
