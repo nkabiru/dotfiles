@@ -2,3 +2,6 @@
 .vscode/
 log/
 *.log
+env/
+*swp
+.aider
