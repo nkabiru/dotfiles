@@ -28,6 +28,8 @@ vmap <M-j> <Action>(MoveLineDown)
 vmap <leader>/ <Action>(CommentByBlockComment)
 
 inoremap ;; <Esc>A;
-nnoremap ;; <Esc>A;
+nnoremap ;; <Esc>A;<Esc>
 inoremap ,, <Esc>A,
-nnoremap ,, <Esc>A,
+nnoremap ,, <Esc>A,<Esc>
+
+
